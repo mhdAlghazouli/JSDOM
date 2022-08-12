@@ -8,6 +8,7 @@ function createContainerDiv () {
   containerDiv.appendChild(createFirstSection());
   containerDiv.appendChild(createSecondSection());
   containerDiv.appendChild(createThirdSection());
+  return containerDiv;
 };
 
 // create header function

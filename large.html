@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Large DOM</title>
+  <style>
+    #root {
+      margin : auto;
+    }
+    .navbar-container {
+      background-color: burlywood;
+      margin: auto;
+      height: 150px;
+      display: flex;
+    }
+    .logo {
+      width: 30%;
+      color: white;
+      padding: 35px;
+    }
+    .navbar-links {
+      width: 35%;
+      color: white;
+      text-align: center;
+      padding: 65px;
+      text-decoration: none;
+    }
+    .main-content-div {
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      margin-top: 25px;
+    }
+    .cat-image-div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+    .main-p-h1-div {
+      width: 50%;
+      text-align: center;
+      margin: 75px;
+      color: black;
+    }
+    .last-big-div {
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 25px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="./large.js"></script>
+</body>
+</html>
